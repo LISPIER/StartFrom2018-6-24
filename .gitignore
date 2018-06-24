@@ -1,0 +1,3 @@
+#忽略ide的文件
+venv
+.idea
