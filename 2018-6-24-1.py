@@ -11,7 +11,12 @@ def main():
     nextLine = []  # 下一行
 
     while True:
-        if True:  # 主逻辑开始
+        command=input()
+
+        if command == "q":
+            break
+
+        else:  # 主逻辑开始
             if historyLines == []:  # 如果当前历史行为空，则进行初始化，此处划线不用管
                 currentLine.append(1)
                 nextLine.append(currentLine[0])
@@ -29,5 +34,5 @@ def main():
             nextLine = []
 
 
-if __name__=='__main__':
+if __name__ == '__main__':
     main()
